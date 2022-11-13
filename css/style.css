@@ -5,8 +5,16 @@
     margin: 0 auto;
     padding: 30px 0 0 0;
 }
-
+.inputArea {
+    padding: 0 20px;
+}
+.inputArea .showResult {
+   line-height: 1.5;
+}
 .urlBtn {
     vertical-align:  bottom;
     margin: 0 0 0 10px;
+}
+.explanation p {
+    line-height: 1.5;
 }

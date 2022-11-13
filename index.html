@@ -12,9 +12,21 @@
     <div class="wrapper">
         <div class="inputArea">
             <label>URL：<input type="text" id="oldUrl"></label><input type="button" class="urlBtn" value="click">
-            <div>Shift_JISコード : <span class="sjisUrl"></span></div>
-            <div>文字列 : <span class="origin"></span></div>
-            <div>UTF-8コード : <span class="utf8Url"></span></div>
+            <div class="showResult">Shift_JISコード : <span class="sjisUrl"></span></div>
+            <div class="showResult">文字列 : <span class="origin"></span></div>
+            <div class="showResult">UTF-8コード : <span class="utf8Url"></span></div>
+            <div class="explanation">
+                <p>説明：<br>
+                    UTF-8コードのタイプで escape エンコードされた escapedString を元の文字列にデコードした値を返します。<br>
+                    Shift_JISコードのタイプで escape エンコードされた escapedString を元の文字列にデコードした値を返します。<br>
+                    文字列 -> UTF8にエンコード にした結果を返します。
+                </p>
+                <p>例:<br>
+                    下記の文字を入力してください。<br>
+                    // %2582%25A0%2582%25A2%2582%25A4%2582%25A6%2582%25A8<br>
+                    ボタンをクリックすると、結果が表示されます。
+                </p>
+            </div>
         </div>
     </div>
     <script src="js/jquery-3.6.0.min.js"></script>
